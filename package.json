@@ -1,0 +1,25 @@
+{
+  "name": "bit-vue-example-template",
+  "version": "1.0.0",
+  "description": "bit.dev example template",
+  "main": "package.json",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Paul Renshaw <paul@renshaw.digital>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/bundlers/vue@2.6.20",
+      "tester": "bit.envs/testers/jest@22.4.3"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  }
+}
